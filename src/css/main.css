@@ -12,11 +12,7 @@ html {
 }
 
 body {
-  background: linear-gradient(
-    190deg,
-    rgb(134, 123, 205) 0%,
-    rgb(106, 90, 171) 100%
-  );
+  background-image: linear-gradient(to right, #ff6e7f, #bfe9ff);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -34,9 +30,9 @@ body {
   display: inline;
   text-align: center;
   margin-bottom: 2rem;
-  color: #e1ebfd;
+  color: #f9fde1;
 
-  text-shadow: 0 0 5px #433aa8, 3px -1px 5px #271c6c;
+  text-shadow: 0 0 5px #9943db, 3px -1px 5px #6d0c70;
 }
 
 .addTodos {
@@ -49,7 +45,7 @@ body {
   width: 40vw;
 
   max-height: 2.5rem;
-  background-color: #e1ebfd;
+  background-color: #f1f4f5;
   border: none;
   border-radius: 5px;
   padding: 0.5rem 1rem;
@@ -64,7 +60,7 @@ body {
 .add-btn {
   margin-left: 1rem;
   background-color: #271c6c;
-  color: #e1ebfd;
+  color: #fdfdfd;
   border-radius: 50%;
   border: 2px solid #e1ebfd;
   font-size: 1.5rem;
@@ -122,8 +118,8 @@ body {
   background: rgb(180, 182, 218);
   background: radial-gradient(
     circle,
-    hsla(237, 34%, 78%, 0.9) 0%,
-    hsla(219, 88%, 94%, 0.9) 100%
+    hsla(0, 0%, 99%, 0.9) 0%,
+    hsla(55, 71%, 88%, 0.9) 100%
   );
 
   margin: 0 1rem 1rem 0;
